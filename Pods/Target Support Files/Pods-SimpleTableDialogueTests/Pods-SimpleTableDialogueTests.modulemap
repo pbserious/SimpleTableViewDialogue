@@ -1,0 +1,6 @@
+framework module Pods_SimpleTableDialogueTests {
+  umbrella header "Pods-SimpleTableDialogueTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

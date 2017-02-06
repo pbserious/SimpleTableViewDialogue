@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C1871E91E487CE50050FFE9 /* SettingsDialogueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C1871E81E487CE50050FFE9 /* SettingsDialogueCell.xib */; };
+		9C1871EB1E4885BA0050FFE9 /* SettingsDialogueCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1871EA1E4885BA0050FFE9 /* SettingsDialogueCellData.swift */; };
+		9C1871ED1E48867B0050FFE9 /* SettingsDialogueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1871EC1E48867B0050FFE9 /* SettingsDialogueCell.swift */; };
+		9C1871EF1E488B430050FFE9 /* DialogueCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1871EE1E488B430050FFE9 /* DialogueCellData.swift */; };
+		9C1871F11E488DB90050FFE9 /* DialogueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1871F01E488DB90050FFE9 /* DialogueCell.swift */; };
+		9C1871F31E488F390050FFE9 /* SelectionDialogueCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1871F21E488F390050FFE9 /* SelectionDialogueCell.swift */; };
+		9C1871F51E488FF50050FFE9 /* SelectionDialogueCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9C1871F41E488FF50050FFE9 /* SelectionDialogueCell.xib */; };
+		9C1871F71E4891140050FFE9 /* SelectionDialogueCellData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1871F61E4891140050FFE9 /* SelectionDialogueCellData.swift */; };
 		9C4E01081E4866B8008D891A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E01071E4866B8008D891A /* AppDelegate.swift */; };
 		9C4E010A1E4866B8008D891A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E01091E4866B8008D891A /* ViewController.swift */; };
 		9C4E010D1E4866B8008D891A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4E010B1E4866B8008D891A /* Main.storyboard */; };
@@ -14,6 +22,10 @@
 		9C4E01121E4866B8008D891A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4E01101E4866B8008D891A /* LaunchScreen.storyboard */; };
 		9C4E011D1E4866B8008D891A /* SimpleTableDialogueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E011C1E4866B8008D891A /* SimpleTableDialogueTests.swift */; };
 		9C4E01281E4866B8008D891A /* SimpleTableDialogueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E01271E4866B8008D891A /* SimpleTableDialogueUITests.swift */; };
+		9C4E01361E486723008D891A /* SimpleTableViewDialogue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E01351E486723008D891A /* SimpleTableViewDialogue.swift */; };
+		D2ACE941B38337890E657307 /* Pods_SimpleTableDialogueTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5187FE6646F3B9E93B02A94 /* Pods_SimpleTableDialogueTests.framework */; };
+		D5575A0CB000B790ED52A8C9 /* Pods_SimpleTableDialogueUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C878EDAC9670AE92053CBBB3 /* Pods_SimpleTableDialogueUITests.framework */; };
+		FE02AAC75DB81289FF818DD0 /* Pods_SimpleTableDialogue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF4FF3E81A07B497813DB4F9 /* Pods_SimpleTableDialogue.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		011D5A15A5AA80505BD5E398 /* Pods-SimpleTableDialogueUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableDialogueUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableDialogueUITests/Pods-SimpleTableDialogueUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		20C0CDAE6A30070474CBBF95 /* Pods-SimpleTableDialogueTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableDialogueTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableDialogueTests/Pods-SimpleTableDialogueTests.release.xcconfig"; sourceTree = "<group>"; };
+		687177C0487A9060B31F146E /* Pods-SimpleTableDialogue.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableDialogue.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableDialogue/Pods-SimpleTableDialogue.debug.xcconfig"; sourceTree = "<group>"; };
+		8B65A5FF6B384F2194E5673C /* Pods-SimpleTableDialogue.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableDialogue.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableDialogue/Pods-SimpleTableDialogue.release.xcconfig"; sourceTree = "<group>"; };
+		9C1871E81E487CE50050FFE9 /* SettingsDialogueCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsDialogueCell.xib; sourceTree = "<group>"; };
+		9C1871EA1E4885BA0050FFE9 /* SettingsDialogueCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDialogueCellData.swift; sourceTree = "<group>"; };
+		9C1871EC1E48867B0050FFE9 /* SettingsDialogueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsDialogueCell.swift; sourceTree = "<group>"; };
+		9C1871EE1E488B430050FFE9 /* DialogueCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogueCellData.swift; sourceTree = "<group>"; };
+		9C1871F01E488DB90050FFE9 /* DialogueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DialogueCell.swift; sourceTree = "<group>"; };
+		9C1871F21E488F390050FFE9 /* SelectionDialogueCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionDialogueCell.swift; sourceTree = "<group>"; };
+		9C1871F41E488FF50050FFE9 /* SelectionDialogueCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectionDialogueCell.xib; sourceTree = "<group>"; };
+		9C1871F61E4891140050FFE9 /* SelectionDialogueCellData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectionDialogueCellData.swift; sourceTree = "<group>"; };
 		9C4E01041E4866B8008D891A /* SimpleTableDialogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableDialogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4E01071E4866B8008D891A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C4E01091E4866B8008D891A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +71,12 @@
 		9C4E01231E4866B8008D891A /* SimpleTableDialogueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableDialogueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C4E01271E4866B8008D891A /* SimpleTableDialogueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableDialogueUITests.swift; sourceTree = "<group>"; };
 		9C4E01291E4866B8008D891A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4E01351E486723008D891A /* SimpleTableViewDialogue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SimpleTableViewDialogue.swift; sourceTree = "<group>"; };
+		C5187FE6646F3B9E93B02A94 /* Pods_SimpleTableDialogueTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTableDialogueTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C878EDAC9670AE92053CBBB3 /* Pods_SimpleTableDialogueUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTableDialogueUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD12C5BCF9B747365A4D7240 /* Pods-SimpleTableDialogueTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableDialogueTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableDialogueTests/Pods-SimpleTableDialogueTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D227EF31090540732D282D7D /* Pods-SimpleTableDialogueUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleTableDialogueUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleTableDialogueUITests/Pods-SimpleTableDialogueUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF4FF3E81A07B497813DB4F9 /* Pods_SimpleTableDialogue.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleTableDialogue.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE02AAC75DB81289FF818DD0 /* Pods_SimpleTableDialogue.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D2ACE941B38337890E657307 /* Pods_SimpleTableDialogueTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +100,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5575A0CB000B790ED52A8C9 /* Pods_SimpleTableDialogueUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5D618159C72E7BFE88D2A650 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				687177C0487A9060B31F146E /* Pods-SimpleTableDialogue.debug.xcconfig */,
+				8B65A5FF6B384F2194E5673C /* Pods-SimpleTableDialogue.release.xcconfig */,
+				CD12C5BCF9B747365A4D7240 /* Pods-SimpleTableDialogueTests.debug.xcconfig */,
+				20C0CDAE6A30070474CBBF95 /* Pods-SimpleTableDialogueTests.release.xcconfig */,
+				011D5A15A5AA80505BD5E398 /* Pods-SimpleTableDialogueUITests.debug.xcconfig */,
+				D227EF31090540732D282D7D /* Pods-SimpleTableDialogueUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		99487895117EEF465A82F3CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF4FF3E81A07B497813DB4F9 /* Pods_SimpleTableDialogue.framework */,
+				C5187FE6646F3B9E93B02A94 /* Pods_SimpleTableDialogueTests.framework */,
+				C878EDAC9670AE92053CBBB3 /* Pods_SimpleTableDialogueUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9C4E00FB1E4866B7008D891A = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +137,8 @@
 				9C4E011B1E4866B8008D891A /* SimpleTableDialogueTests */,
 				9C4E01261E4866B8008D891A /* SimpleTableDialogueUITests */,
 				9C4E01051E4866B8008D891A /* Products */,
+				5D618159C72E7BFE88D2A650 /* Pods */,
+				99487895117EEF465A82F3CB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +161,15 @@
 				9C4E010E1E4866B8008D891A /* Assets.xcassets */,
 				9C4E01101E4866B8008D891A /* LaunchScreen.storyboard */,
 				9C4E01131E4866B8008D891A /* Info.plist */,
+				9C1871EE1E488B430050FFE9 /* DialogueCellData.swift */,
+				9C1871F01E488DB90050FFE9 /* DialogueCell.swift */,
+				9C4E01351E486723008D891A /* SimpleTableViewDialogue.swift */,
+				9C1871EA1E4885BA0050FFE9 /* SettingsDialogueCellData.swift */,
+				9C1871EC1E48867B0050FFE9 /* SettingsDialogueCell.swift */,
+				9C1871E81E487CE50050FFE9 /* SettingsDialogueCell.xib */,
+				9C1871F61E4891140050FFE9 /* SelectionDialogueCellData.swift */,
+				9C1871F21E488F390050FFE9 /* SelectionDialogueCell.swift */,
+				9C1871F41E488FF50050FFE9 /* SelectionDialogueCell.xib */,
 			);
 			path = SimpleTableDialogue;
 			sourceTree = "<group>";
@@ -132,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C4E012C1E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogue" */;
 			buildPhases = (
+				017A9B5E60B98BF0D524D74B /* [CP] Check Pods Manifest.lock */,
 				9C4E01001E4866B7008D891A /* Sources */,
 				9C4E01011E4866B7008D891A /* Frameworks */,
 				9C4E01021E4866B7008D891A /* Resources */,
+				1935C4582CB9C4EB27CA06CB /* [CP] Embed Pods Frameworks */,
+				1DB9CCBF73C0C27640173487 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,9 +219,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C4E012F1E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogueTests" */;
 			buildPhases = (
+				7E6B496CEF9C5522BBD9FF65 /* [CP] Check Pods Manifest.lock */,
 				9C4E01141E4866B8008D891A /* Sources */,
 				9C4E01151E4866B8008D891A /* Frameworks */,
 				9C4E01161E4866B8008D891A /* Resources */,
+				03389DDBDC7A5E82803E24DC /* [CP] Embed Pods Frameworks */,
+				86B9DA13A777D08868D71DFD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +240,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9C4E01321E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogueUITests" */;
 			buildPhases = (
+				3F27B39665C6C773E26453DA /* [CP] Check Pods Manifest.lock */,
 				9C4E011F1E4866B8008D891A /* Sources */,
 				9C4E01201E4866B8008D891A /* Frameworks */,
 				9C4E01211E4866B8008D891A /* Resources */,
+				FA42D13F27E709B29247749B /* [CP] Embed Pods Frameworks */,
+				3B8A44ED40E28E7D0736AB8D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,8 +308,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C1871E91E487CE50050FFE9 /* SettingsDialogueCell.xib in Resources */,
 				9C4E01121E4866B8008D891A /* LaunchScreen.storyboard in Resources */,
 				9C4E010F1E4866B8008D891A /* Assets.xcassets in Resources */,
+				9C1871F51E488FF50050FFE9 /* SelectionDialogueCell.xib in Resources */,
 				9C4E010D1E4866B8008D891A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,13 +332,158 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		017A9B5E60B98BF0D524D74B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		03389DDBDC7A5E82803E24DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTableDialogueTests/Pods-SimpleTableDialogueTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1935C4582CB9C4EB27CA06CB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTableDialogue/Pods-SimpleTableDialogue-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1DB9CCBF73C0C27640173487 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTableDialogue/Pods-SimpleTableDialogue-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3B8A44ED40E28E7D0736AB8D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTableDialogueUITests/Pods-SimpleTableDialogueUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3F27B39665C6C773E26453DA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6B496CEF9C5522BBD9FF65 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		86B9DA13A777D08868D71DFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTableDialogueTests/Pods-SimpleTableDialogueTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA42D13F27E709B29247749B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleTableDialogueUITests/Pods-SimpleTableDialogueUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9C4E01001E4866B7008D891A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9C4E010A1E4866B8008D891A /* ViewController.swift in Sources */,
+				9C1871EF1E488B430050FFE9 /* DialogueCellData.swift in Sources */,
 				9C4E01081E4866B8008D891A /* AppDelegate.swift in Sources */,
+				9C1871ED1E48867B0050FFE9 /* SettingsDialogueCell.swift in Sources */,
+				9C1871F71E4891140050FFE9 /* SelectionDialogueCellData.swift in Sources */,
+				9C4E01361E486723008D891A /* SimpleTableViewDialogue.swift in Sources */,
+				9C1871EB1E4885BA0050FFE9 /* SettingsDialogueCellData.swift in Sources */,
+				9C1871F31E488F390050FFE9 /* SelectionDialogueCell.swift in Sources */,
+				9C1871F11E488DB90050FFE9 /* DialogueCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -408,6 +631,7 @@
 		};
 		9C4E012D1E4866B8008D891A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 687177C0487A9060B31F146E /* Pods-SimpleTableDialogue.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleTableDialogue/Info.plist;
@@ -420,6 +644,7 @@
 		};
 		9C4E012E1E4866B8008D891A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B65A5FF6B384F2194E5673C /* Pods-SimpleTableDialogue.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SimpleTableDialogue/Info.plist;
@@ -432,6 +657,7 @@
 		};
 		9C4E01301E4866B8008D891A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CD12C5BCF9B747365A4D7240 /* Pods-SimpleTableDialogueTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -446,6 +672,7 @@
 		};
 		9C4E01311E4866B8008D891A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20C0CDAE6A30070474CBBF95 /* Pods-SimpleTableDialogueTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -460,6 +687,7 @@
 		};
 		9C4E01331E4866B8008D891A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 011D5A15A5AA80505BD5E398 /* Pods-SimpleTableDialogueUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SimpleTableDialogueUITests/Info.plist;
@@ -473,6 +701,7 @@
 		};
 		9C4E01341E4866B8008D891A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D227EF31090540732D282D7D /* Pods-SimpleTableDialogueUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = SimpleTableDialogueUITests/Info.plist;
@@ -503,6 +732,7 @@
 				9C4E012E1E4866B8008D891A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C4E012F1E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogueTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +741,7 @@
 				9C4E01311E4866B8008D891A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9C4E01321E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogueUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +750,7 @@
 				9C4E01341E4866B8008D891A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

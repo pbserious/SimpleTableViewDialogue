@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="SettingsDialogueCell" customModule="SimpleTableDialogue" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="283" height="54"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_subtitle" translatesAutoresizingMaskIntoConstraints="NO" id="MTv-XX-1uW">
+                    <rect key="frame" x="26" y="16" width="26" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="22" id="JYk-X1-trh"/>
+                        <constraint firstAttribute="width" constant="26" id="hN7-XT-hzA"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_arrow_right_gray" translatesAutoresizingMaskIntoConstraints="NO" id="Ovm-h7-hSZ">
+                    <rect key="frame" x="254" y="18" width="9" height="18"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="9" id="Sav-AJ-tSs"/>
+                        <constraint firstAttribute="height" constant="18" id="pZR-Y2-LgI"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e0Q-cC-LoT">
+                    <rect key="frame" x="66" y="16" width="34" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Option" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Py2-Yg-9xn">
+                    <rect key="frame" x="188" y="17" width="52" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.22352941179999999" blue="0.2323191346" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="Ovm-h7-hSZ" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="EUc-eo-r8o"/>
+                <constraint firstItem="Ovm-h7-hSZ" firstAttribute="leading" secondItem="Py2-Yg-9xn" secondAttribute="trailing" constant="14" id="HXC-RO-s9s"/>
+                <constraint firstAttribute="trailing" secondItem="Ovm-h7-hSZ" secondAttribute="trailing" constant="20" id="MF8-DJ-q8U"/>
+                <constraint firstItem="Py2-Yg-9xn" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="RaY-6Z-csu"/>
+                <constraint firstItem="MTv-XX-1uW" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="26" id="c90-qV-ht3"/>
+                <constraint firstItem="e0Q-cC-LoT" firstAttribute="leading" secondItem="MTv-XX-1uW" secondAttribute="trailing" constant="14" id="fGY-am-gIr"/>
+                <constraint firstItem="MTv-XX-1uW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="tnc-ml-Oro"/>
+                <constraint firstItem="e0Q-cC-LoT" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="zhN-Pb-eBM"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bulletImage" destination="MTv-XX-1uW" id="rOx-JI-LVS"/>
+                <outlet property="subTitle" destination="Py2-Yg-9xn" id="4iO-kJ-iD9"/>
+                <outlet property="title" destination="e0Q-cC-LoT" id="t90-gg-mZ9"/>
+            </connections>
+            <point key="canvasLocation" x="-23.5" y="298"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ic_arrow_right_gray" width="36" height="36"/>
+        <image name="ic_subtitle" width="36" height="36"/>
+    </resources>
+</document>
