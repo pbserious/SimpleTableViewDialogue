@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9C4E01081E4866B8008D891A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E01071E4866B8008D891A /* AppDelegate.swift */; };
+		9C4E010A1E4866B8008D891A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E01091E4866B8008D891A /* ViewController.swift */; };
+		9C4E010D1E4866B8008D891A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4E010B1E4866B8008D891A /* Main.storyboard */; };
+		9C4E010F1E4866B8008D891A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C4E010E1E4866B8008D891A /* Assets.xcassets */; };
+		9C4E01121E4866B8008D891A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C4E01101E4866B8008D891A /* LaunchScreen.storyboard */; };
+		9C4E011D1E4866B8008D891A /* SimpleTableDialogueTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E011C1E4866B8008D891A /* SimpleTableDialogueTests.swift */; };
+		9C4E01281E4866B8008D891A /* SimpleTableDialogueUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C4E01271E4866B8008D891A /* SimpleTableDialogueUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9C4E01191E4866B8008D891A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4E00FC1E4866B7008D891A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4E01031E4866B7008D891A;
+			remoteInfo = SimpleTableDialogue;
+		};
+		9C4E01241E4866B8008D891A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9C4E00FC1E4866B7008D891A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C4E01031E4866B7008D891A;
+			remoteInfo = SimpleTableDialogue;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9C4E01041E4866B8008D891A /* SimpleTableDialogue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTableDialogue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4E01071E4866B8008D891A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9C4E01091E4866B8008D891A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9C4E010C1E4866B8008D891A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9C4E010E1E4866B8008D891A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9C4E01111E4866B8008D891A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9C4E01131E4866B8008D891A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4E01181E4866B8008D891A /* SimpleTableDialogueTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableDialogueTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4E011C1E4866B8008D891A /* SimpleTableDialogueTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableDialogueTests.swift; sourceTree = "<group>"; };
+		9C4E011E1E4866B8008D891A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9C4E01231E4866B8008D891A /* SimpleTableDialogueUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTableDialogueUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9C4E01271E4866B8008D891A /* SimpleTableDialogueUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableDialogueUITests.swift; sourceTree = "<group>"; };
+		9C4E01291E4866B8008D891A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9C4E01011E4866B7008D891A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4E01151E4866B8008D891A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4E01201E4866B8008D891A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C4E00FB1E4866B7008D891A = {
+			isa = PBXGroup;
+			children = (
+				9C4E01061E4866B8008D891A /* SimpleTableDialogue */,
+				9C4E011B1E4866B8008D891A /* SimpleTableDialogueTests */,
+				9C4E01261E4866B8008D891A /* SimpleTableDialogueUITests */,
+				9C4E01051E4866B8008D891A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9C4E01051E4866B8008D891A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9C4E01041E4866B8008D891A /* SimpleTableDialogue.app */,
+				9C4E01181E4866B8008D891A /* SimpleTableDialogueTests.xctest */,
+				9C4E01231E4866B8008D891A /* SimpleTableDialogueUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9C4E01061E4866B8008D891A /* SimpleTableDialogue */ = {
+			isa = PBXGroup;
+			children = (
+				9C4E01071E4866B8008D891A /* AppDelegate.swift */,
+				9C4E01091E4866B8008D891A /* ViewController.swift */,
+				9C4E010B1E4866B8008D891A /* Main.storyboard */,
+				9C4E010E1E4866B8008D891A /* Assets.xcassets */,
+				9C4E01101E4866B8008D891A /* LaunchScreen.storyboard */,
+				9C4E01131E4866B8008D891A /* Info.plist */,
+			);
+			path = SimpleTableDialogue;
+			sourceTree = "<group>";
+		};
+		9C4E011B1E4866B8008D891A /* SimpleTableDialogueTests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4E011C1E4866B8008D891A /* SimpleTableDialogueTests.swift */,
+				9C4E011E1E4866B8008D891A /* Info.plist */,
+			);
+			path = SimpleTableDialogueTests;
+			sourceTree = "<group>";
+		};
+		9C4E01261E4866B8008D891A /* SimpleTableDialogueUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9C4E01271E4866B8008D891A /* SimpleTableDialogueUITests.swift */,
+				9C4E01291E4866B8008D891A /* Info.plist */,
+			);
+			path = SimpleTableDialogueUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9C4E01031E4866B7008D891A /* SimpleTableDialogue */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4E012C1E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogue" */;
+			buildPhases = (
+				9C4E01001E4866B7008D891A /* Sources */,
+				9C4E01011E4866B7008D891A /* Frameworks */,
+				9C4E01021E4866B7008D891A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTableDialogue;
+			productName = SimpleTableDialogue;
+			productReference = 9C4E01041E4866B8008D891A /* SimpleTableDialogue.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9C4E01171E4866B8008D891A /* SimpleTableDialogueTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4E012F1E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogueTests" */;
+			buildPhases = (
+				9C4E01141E4866B8008D891A /* Sources */,
+				9C4E01151E4866B8008D891A /* Frameworks */,
+				9C4E01161E4866B8008D891A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4E011A1E4866B8008D891A /* PBXTargetDependency */,
+			);
+			name = SimpleTableDialogueTests;
+			productName = SimpleTableDialogueTests;
+			productReference = 9C4E01181E4866B8008D891A /* SimpleTableDialogueTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9C4E01221E4866B8008D891A /* SimpleTableDialogueUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C4E01321E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogueUITests" */;
+			buildPhases = (
+				9C4E011F1E4866B8008D891A /* Sources */,
+				9C4E01201E4866B8008D891A /* Frameworks */,
+				9C4E01211E4866B8008D891A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C4E01251E4866B8008D891A /* PBXTargetDependency */,
+			);
+			name = SimpleTableDialogueUITests;
+			productName = SimpleTableDialogueUITests;
+			productReference = 9C4E01231E4866B8008D891A /* SimpleTableDialogueUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9C4E00FC1E4866B7008D891A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = truecorp;
+				TargetAttributes = {
+					9C4E01031E4866B7008D891A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+					};
+					9C4E01171E4866B8008D891A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C4E01031E4866B7008D891A;
+					};
+					9C4E01221E4866B8008D891A = {
+						CreatedOnToolsVersion = 8.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9C4E01031E4866B7008D891A;
+					};
+				};
+			};
+			buildConfigurationList = 9C4E00FF1E4866B7008D891A /* Build configuration list for PBXProject "SimpleTableDialogue" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9C4E00FB1E4866B7008D891A;
+			productRefGroup = 9C4E01051E4866B8008D891A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9C4E01031E4866B7008D891A /* SimpleTableDialogue */,
+				9C4E01171E4866B8008D891A /* SimpleTableDialogueTests */,
+				9C4E01221E4866B8008D891A /* SimpleTableDialogueUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9C4E01021E4866B7008D891A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4E01121E4866B8008D891A /* LaunchScreen.storyboard in Resources */,
+				9C4E010F1E4866B8008D891A /* Assets.xcassets in Resources */,
+				9C4E010D1E4866B8008D891A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4E01161E4866B8008D891A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4E01211E4866B8008D891A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9C4E01001E4866B7008D891A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4E010A1E4866B8008D891A /* ViewController.swift in Sources */,
+				9C4E01081E4866B8008D891A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4E01141E4866B8008D891A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4E011D1E4866B8008D891A /* SimpleTableDialogueTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C4E011F1E4866B8008D891A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9C4E01281E4866B8008D891A /* SimpleTableDialogueUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C4E011A1E4866B8008D891A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4E01031E4866B7008D891A /* SimpleTableDialogue */;
+			targetProxy = 9C4E01191E4866B8008D891A /* PBXContainerItemProxy */;
+		};
+		9C4E01251E4866B8008D891A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9C4E01031E4866B7008D891A /* SimpleTableDialogue */;
+			targetProxy = 9C4E01241E4866B8008D891A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9C4E010B1E4866B8008D891A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4E010C1E4866B8008D891A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9C4E01101E4866B8008D891A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9C4E01111E4866B8008D891A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9C4E012A1E4866B8008D891A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9C4E012B1E4866B8008D891A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9C4E012D1E4866B8008D891A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleTableDialogue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.true.SimpleTableDialogue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9C4E012E1E4866B8008D891A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleTableDialogue/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.true.SimpleTableDialogue;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9C4E01301E4866B8008D891A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleTableDialogueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.true.SimpleTableDialogueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTableDialogue.app/SimpleTableDialogue";
+			};
+			name = Debug;
+		};
+		9C4E01311E4866B8008D891A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleTableDialogueTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.true.SimpleTableDialogueTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTableDialogue.app/SimpleTableDialogue";
+			};
+			name = Release;
+		};
+		9C4E01331E4866B8008D891A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimpleTableDialogueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.true.SimpleTableDialogueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpleTableDialogue;
+			};
+			name = Debug;
+		};
+		9C4E01341E4866B8008D891A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimpleTableDialogueUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.true.SimpleTableDialogueUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimpleTableDialogue;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9C4E00FF1E4866B7008D891A /* Build configuration list for PBXProject "SimpleTableDialogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4E012A1E4866B8008D891A /* Debug */,
+				9C4E012B1E4866B8008D891A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C4E012C1E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogue" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4E012D1E4866B8008D891A /* Debug */,
+				9C4E012E1E4866B8008D891A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C4E012F1E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogueTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4E01301E4866B8008D891A /* Debug */,
+				9C4E01311E4866B8008D891A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9C4E01321E4866B8008D891A /* Build configuration list for PBXNativeTarget "SimpleTableDialogueUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9C4E01331E4866B8008D891A /* Debug */,
+				9C4E01341E4866B8008D891A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9C4E00FC1E4866B7008D891A /* Project object */;
+}
