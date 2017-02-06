@@ -23,12 +23,14 @@ class ViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "SettingsSegue" {
             let vc = segue.destination as! SimpleTableViewDialogue
+            vc.title = "Settings"
             vc.cellNibName = "SettingsDialogueCell"
             vc.actionList.append((SettingsDialogueCellData(title: "Sound", subTitle: "Thai", image: #imageLiteral(resourceName: "ic_subtitle")), { print("eiei sound") }))
             vc.actionList.append((SettingsDialogueCellData(title: "Subtitle", subTitle: "Off", image: #imageLiteral(resourceName: "ic_subtitle")), { print("eiei sub") }))
             vc.actionList.append((SettingsDialogueCellData(title: "Bit rate", subTitle: "Auto", image: #imageLiteral(resourceName: "ic_subtitle")), { print("Bit rate sub") }))
         } else if segue.identifier == "SelectionSegue" {
             let vc = segue.destination as! SimpleTableViewDialogue
+            vc.title = "Subtitle"
             vc.cellNibName = "SelectionDialogueCell"
             vc.actionList.append((SelectionDialogueCellData(title: "Off", isSelected: true), {
                 print("Off Eiei")

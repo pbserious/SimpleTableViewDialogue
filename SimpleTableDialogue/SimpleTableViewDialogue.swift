@@ -24,6 +24,7 @@ class SimpleTableViewDialogue:UIViewController {
     }
     
     func setUpView() {
+        dialogueHeader.text = title
         dialogueView.layer.cornerRadius = 5.0
         tableView.isScrollEnabled = false
         tableView.delegate = self
