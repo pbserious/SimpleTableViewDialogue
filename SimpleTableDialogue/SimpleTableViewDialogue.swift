@@ -14,7 +14,7 @@ class SimpleTableViewDialogue:UIViewController {
     @IBOutlet weak var dialogueView:UIView!
     @IBOutlet weak var dialogueHeader:UILabel!
     @IBOutlet weak var tableView:UITableView!
-    var actionList = [(DialogueCellData,()->Void)]()
+    fileprivate var actionList = [(DialogueCellData,()->Void)]()
     var cellNibName:String?
     var cellHeight = 44
     
@@ -46,6 +46,10 @@ class SimpleTableViewDialogue:UIViewController {
     
     @IBAction func closeDialoguePressed() {
         self.dismiss(animated: true, completion: nil)
+    }
+    
+    func addAction(action:(DialogueCellData,()->Void)) {
+        actionList.append(action)
     }
 }
 
