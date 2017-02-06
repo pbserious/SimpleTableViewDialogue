@@ -13,12 +13,12 @@ struct SelectionDialogueCellData {
     let isSelected:Bool
 }
 
-extension SelectionDialogueCell:DialogueCellData {
+extension SelectionDialogueCellData:DialogueCellData {
     func getTitle() -> String {
         return title
     }
     
-    func isSelected() -> Bool {
+    func isChecked() -> Bool {
         return isSelected
     }
 }

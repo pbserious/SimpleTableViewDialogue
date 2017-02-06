@@ -15,11 +15,8 @@ class SimpleTableViewDialogue:UIViewController {
     @IBOutlet weak var dialogueHeader:UILabel!
     @IBOutlet weak var tableView:UITableView!
     var actionList = [(DialogueCellData,()->Void)]()
-    var cellHeight = 44.0 {
-        didSet {
-            setUpView()
-        }
-    }
+    var cellNibName:String?
+    var cellHeight = 44
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,17 +29,17 @@ class SimpleTableViewDialogue:UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.separatorStyle = .none
-        self.tableView.register(UINib(nibName: "SettingsDialogueCell", bundle: nil), forCellReuseIdentifier: "DialogueCell")
-        actionList.append((SettingsDialogueCellData(title: "Sound", subTitle: "Thai", image: #imageLiteral(resourceName: "ic_subtitle")), { print("eiei sound") }))
-        actionList.append((SettingsDialogueCellData(title: "Subtitle", subTitle: "Off", image: #imageLiteral(resourceName: "ic_subtitle")), { print("eiei sub") }))
-        actionList.append((SettingsDialogueCellData(title: "Bit rate", subTitle: "Auto", image: #imageLiteral(resourceName: "ic_subtitle")), { print("Bit rate sub") }))
+        if let cellNibName = cellNibName {
+            tableView.register(UINib(nibName: cellNibName, bundle: nil),
+                               forCellReuseIdentifier: "DialogueCell")
+        }
         
         dialogueHeader.snp.updateConstraints { (make) in
             make.left.equalTo(26.0)
             make.top.equalTo(6.8)
         }
         tableView.snp.updateConstraints{ (make) in
-            make.height.equalTo(44*actionList.count).priority(1000)
+            make.height.equalTo(cellHeight*actionList.count).priority(1000)
         }
     }
     

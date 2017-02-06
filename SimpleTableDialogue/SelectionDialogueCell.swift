@@ -16,7 +16,7 @@ class SelectionDialogueCell:UITableViewCell {
 extension SelectionDialogueCell:DialogueCell {
     func setCellData(cellData:DialogueCellData) {
         title?.text = cellData.getTitle()
-        selectedIcon?.isHidden = !cellData.isSelected()
+        selectedIcon?.isHidden = !cellData.isChecked()
     }
 
 }

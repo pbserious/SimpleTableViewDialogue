@@ -12,15 +12,19 @@ protocol DialogueCellData {
     func getTitle() -> String
     func getDetail() -> String
     func getImage() -> UIImage?
-    func isSelected() -> Bool
+    func isChecked() -> Bool
 }
 
 extension DialogueCellData {
-    func getSubtitle() -> String {
+    func getDetail() -> String {
         return ""
     }
     
-    func isSelected() -> Bool {
+    func isChecked() -> Bool {
         return false
+    }
+    
+    func getImage() -> UIImage? {
+        return nil
     }
 }

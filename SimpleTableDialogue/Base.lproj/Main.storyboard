@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Vrs-0n-PKh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Vrs-0n-PKh">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -52,13 +52,13 @@
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
-                                    <constraint firstItem="1jA-Or-RIa" firstAttribute="top" secondItem="iKx-jl-kB7" secondAttribute="top" constant="8" id="2SJ-ah-SJI"/>
+                                    <constraint firstItem="1jA-Or-RIa" firstAttribute="top" secondItem="iKx-jl-kB7" secondAttribute="top" priority="750" constant="8" id="2SJ-ah-SJI"/>
                                     <constraint firstAttribute="trailing" secondItem="fSJ-6y-Ye3" secondAttribute="trailing" id="70L-JH-ghW"/>
                                     <constraint firstAttribute="bottom" secondItem="fSJ-6y-Ye3" secondAttribute="bottom" constant="15" id="8fc-4P-JjS"/>
                                     <constraint firstAttribute="width" constant="276" id="Buk-b5-u2b"/>
                                     <constraint firstItem="fSJ-6y-Ye3" firstAttribute="leading" secondItem="iKx-jl-kB7" secondAttribute="leading" id="JvO-sh-U6z"/>
                                     <constraint firstItem="fSJ-6y-Ye3" firstAttribute="top" secondItem="1jA-Or-RIa" secondAttribute="bottom" constant="8" id="Lc2-Wc-l18"/>
-                                    <constraint firstItem="1jA-Or-RIa" firstAttribute="leading" secondItem="iKx-jl-kB7" secondAttribute="leading" constant="8" id="YBt-uS-0FM"/>
+                                    <constraint firstItem="1jA-Or-RIa" firstAttribute="leading" secondItem="iKx-jl-kB7" secondAttribute="leading" priority="750" constant="8" id="YBt-uS-0FM"/>
                                     <constraint firstItem="RBN-64-Dow" firstAttribute="top" secondItem="iKx-jl-kB7" secondAttribute="top" constant="8" id="eF9-zj-kg9"/>
                                     <constraint firstAttribute="trailing" secondItem="RBN-64-Dow" secondAttribute="trailing" constant="8" id="gFa-0y-ShX"/>
                                 </constraints>
@@ -105,7 +105,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Selection"/>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="SelectionSegue" id="mnt-Ca-nVP"/>
+                                    <segue destination="BYZ-38-t0r" kind="presentation" identifier="SelectionSegue" modalPresentationStyle="overCurrentContext" modalTransitionStyle="crossDissolve" id="mnt-Ca-nVP"/>
                                 </connections>
                             </button>
                         </subviews>

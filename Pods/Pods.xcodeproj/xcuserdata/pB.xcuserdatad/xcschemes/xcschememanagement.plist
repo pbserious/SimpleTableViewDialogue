@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Pods-SimpleTableDialogue.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Pods-SimpleTableDialogueTests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Pods-SimpleTableDialogueUITests.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>SnapKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>914164BD418A0A6C271B040BA651FA7E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>985BC688CD6841F104882D98F75C208B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D4B3868D6D31F42C0C9E86BB9A9E6FDA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D99EECA3A1BE0AB800E6C27A2CE1D0F3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
